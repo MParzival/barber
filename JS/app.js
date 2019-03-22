@@ -87,20 +87,8 @@ $('#icon').click(function (event) {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 // Navigation Jquery, nav et arrow
+
 $("#arrow").click(function () {
     $('html,body').animate({
         scrollTop: $("#section-about").offset().top - 50 // moins 50 pour que la pointe de clip path ne rentre pas dans les titres 
